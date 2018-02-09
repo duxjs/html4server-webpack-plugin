@@ -1,0 +1,28 @@
+{
+  "name": "html4server-webpack-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxjs/html4server-webpack-plugin.git"
+  },
+  "keywords": [
+    "html-webpack-plugin"
+  ],
+  "author": "madlord",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duxjs/html4server-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/duxjs/html4server-webpack-plugin#readme",
+  "dependencies": {
+    "lodash": "^4.17.5"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^2.29.0"
+  }
+}
