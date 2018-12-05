@@ -54,7 +54,7 @@ module.exports = class Html4ServerWebpackPlugin {
             const assetsName = filename;
             const tmlFunction = _.template(html);
             const newHtml = tmlFunction(templateData);
-            const source = "module.exports = " + tmlFunction;
+            const source = "const serialize = require('serialize-javascript'); module.exports = " + tmlFunction;
             compilation.assets[assetsName] = {
                 source: function() {
                     return source;
